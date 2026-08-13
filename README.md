@@ -16,7 +16,7 @@ This board is a custom designed wireless communication module for long range app
 - Internal Routing: The RP2040 uses its SPI busses to talk to the Flash memory and the SX1262 LoRa chip.
 
 
-
+```text
 [ USB-C ] ──5V──► [ AP2112K-3.3 LDO ] ──3.3V──┐
                                               ▼
 [ W25Q16 Flash ] ◄──SPI── [ RP2040 ] ──SPI──► [ SX1262 LoRa ]
@@ -28,7 +28,7 @@ This board is a custom designed wireless communication module for long range app
                                                 [ Antenna ]
                                                     📡
 
-                                            
+```
 
 # Images:
 
