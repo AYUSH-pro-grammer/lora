@@ -1,34 +1,33 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"AE1";"PinSocket_1x01_P2.54mm_Vertical";1;"Antenna";;;
-2;"C1, C2, C10, C11, C12, C13, C14, C15, C16, C17, C25";"C_0402_1005Metric";11;"100nF";;;
-3;"C3";"C_0402_1005Metric";1;"470nF";;;
-4;"C4";"C_0402_1005Metric";1;"47pF";;;
-5;"C5";"C_0402_1005Metric";1;"47nF";;;
-6;"C6";"C_0402_1005Metric";1;"1nF";;;
-7;"C7";"C_0402_1005Metric";1;"39pF";;;
-8;"C8, C9";"C_0402_1005Metric";2;"3.3pF";;;
-9;"C18";"C_0402_1005Metric";1;"C";;;
-10;"C19, C20";"C_0402_1005Metric";2;"1uF";;;
-11;"C21, C22";"C_0402_1005Metric";2;"15pF";;;
-12;"C23, C24";"C_0402_1005Metric";2;"10uF";;;
-13;"FB1";"L_0402_1005Metric";1;"FerriteBead_Small";;;
-14;"FL1";"Balun_Johanson_0900FM15K0039";1;"0900FM15K0039";;;
-15;"J1";"USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal";1;"USB_C_Receptacle_USB2.0_16P";;;
-16;"L1";"L_0402_1005Metric";1;"15uH";;;
-17;"L2";"L_0402_1005Metric";1;"47nH";;;
-18;"L3";"L_0402_1005Metric";1;"9.1nH";;;
-19;"R1";"R_0402_1005Metric";1;"100";;;
-20;"R2";"R_0402_1005Metric";1;"10k";;;
-21;"R3";"R_0402_1005Metric";1;"27.4";;;
-22;"R4";"R_0402_1005Metric";1;"24.4";;;
-23;"R5, R6";"R_0402_1005Metric";2;"5.1k";;;
-24;"R7";"R_0402_1005Metric";1;"1K";;;
-25;"SW1";"SW_Cherry_MX_1.00u_PCB";1;"bootsl";;;
-26;"SW2";"SW_Cherry_MX_1.00u_PCB";1;"reset";;;
-27;"U1";"QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm";1;"RP2040";;;
-28;"U2";"QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm";1;"SX1262IMLTRT";;;
-29;"U3";"SOT-363_SC-70-6";1;"4259-63";;;
-30;"U4";"SOT-23-5";1;"AP2112K-3.3TRG1";;;
-31;"U5";"SOIC-8_5.3x5.3mm_P1.27mm";1;"W25Q16JVSS";;;
-32;"Y1";"Crystal_SMD_3225-4Pin_3.2x2.5mm";1;"32MHz";;;
-33;"Y2";"Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm";1;"Crystal_GND24";;;
+Quantity,Part Name,Link
+1,Antenna Pin (2.54mm Vertical Pin Header),https://www.lcsc.com/product-detail/C2337.html
+11,100nF 16V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1525.html
+1,470nF 10V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1527.html
+1,47pF 50V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1554.html
+1,47nF 16V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1530.html
+1,1nF 50V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1523.html
+1,39pF 50V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1553.html
+2,3.3pF 50V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1548.html
+1,Capacitor C18 (Placeholder 100nF 0402),https://www.lcsc.com/product-detail/C1525.html
+2,1uF 10V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1526.html
+2,15pF 50V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1550.html
+2,10uF 6.3V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1528.html
+1,100 Ohm 0402 Ferrite Bead,https://www.lcsc.com/product-detail/C1015.html
+1,Johanson 0900FM15K0039 RF Balun,https://www.lcsc.com/product-detail/C186411.html
+1,USB Type-C 16-Pin Connector (GCT USB4105),https://www.lcsc.com/product-detail/C2765186.html
+1,15uH 0402 SMD Inductor,https://www.lcsc.com/product-detail/C23985.html
+1,47nH 0402 SMD Inductor,https://www.lcsc.com/product-detail/C23987.html
+1,9.1nH 0402 SMD Inductor,https://www.lcsc.com/product-detail/C23988.html
+1,100 Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25076.html
+1,10k Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25744.html
+1,27.4 Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25082.html
+1,24.3 Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25081.html
+2,5.1k Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25905.html
+1,1k Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25879.html
+2,Cherry MX Clear Tactile Switch (5-pin),https://stackskb.com/store/cherry-mx-clear-switch-5-pin-pack-of-10/
+1,RP2040 Microcontroller,https://www.lcsc.com/product-detail/C2040.html
+1,SX1262IMLTRT LoRa Transceiver,https://www.lcsc.com/product-detail/C191341.html
+1,PE4259-63 RF Switch (SOT-363),https://www.lcsc.com/product-detail/C74415.html
+1,AP2112K-3.3TRG1 LDO Regulator,https://www.lcsc.com/product-detail/C51118.html
+1,W25Q16JVSSIQ SPI Flash Memory,https://www.lcsc.com/product-detail/C82317.html
+1,32MHz 3225 4-pin SMD Crystal,https://www.lcsc.com/product-detail/C13738.html
+1,12MHz 3225 4-pin SMD Crystal (RP2040 Target),https://www.lcsc.com/product-detail/C13736.html
