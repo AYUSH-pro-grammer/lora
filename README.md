@@ -102,4 +102,4 @@ RP2040 Microcontroller: 1
 | 1 | 3.3V LDO Regulator | AP2112K-3.3TRG1 (SOT-23-5) | LCSC | https://www.lcsc.com/product-detail/C51118.html |
 | 1 | SPI Flash Memory | W25Q16JVSSIQ (SOIC-8) | LCSC | https://www.lcsc.com/product-detail/C82317.html |
 | 1 | 32MHz Crystal | 32MHz 3225 4-pin SMD | LCSC | https://www.lcsc.com/product-detail/C13738.html |
-| 1 | 12MHz Crystal (for RP2040) | 12MHz 3225 4-pin SMD | LCSC | https://www.lcsc.com/product-detail/C13736.html |
+| 1 | 12MHz Crystal (for RP2040) | 12MHz 3225 4-pin SMD | LCSC | https://www.lcsc.com/product-detail/C9002.html |
