@@ -4,26 +4,32 @@ A LoRa board project that I made in order to figure out how radios really work, 
 
 # How its works
 
-The board is a wireless communication module working on the principles of long-distance wireless communication and consists of an **ESP32-S3** along with **SX1262 LoRa transceiver**.
-
-- **USB-C** supplies power and USB connectivity.
-- **AMS1117-3.3** steps down 5V to 3.3V for electronics.
-- **ESP32-S3** drives the firmware.
-- **SX1262** takes care of LoRa wireless communication.
-- The ESP32-S3 communicates with the SX1262 through **SPI**.
+This board is a custom designed wireless communication module for long range applications. It is based on the dual-core Raspberry Pi RP2040 microcontroller and SX1262 LoRa transceiver.
 
 
-```text
-USB-C → AMS1117-3.3 → 3.3V
-                         │
-                  ┌──────┴──────┐
-                  │             │
-              ESP32-S3 ← SPI → SX1262
-                                │
-                                📡
+- Power & Connectivity. 5V power and data thru USB-C port. An AP2112K-3.3 LDO regulator efficiently steps this down to a stable 3.3V for the system.
 
+- Processing & Memory - The RP2040 is the brain. The RP2040 requires external memory, so it’s coupled with a W25Q16JV SPI Flash chip to store your firmware.
+
+- Long-Range RF The SX1262 provides sub-GHz LoRa wireless communication. The RF path is controlled by a PE4259 RF switch and a Johanson Balun to condition the signal for the antenna.
+
+- Internal Routing: The RP2040 uses its SPI busses to talk to the Flash memory and the SX1262 LoRa chip.
+
+
+text ```
+[ USB-C ] ──5V──► [ AP2112K-3.3 LDO ] ──3.3V──┐
+                                              ▼
+[ W25Q16 Flash ] ◄──SPI── [ RP2040 ] ──SPI──► [ SX1262 LoRa ]
+                        (Main Brain)                │
+                                                    ▼
+                                            [ PE4259 Switch ]
+                                                    │
+                                                    ▼
+                                                [ Antenna ]
+                                                    📡
 ```
 
+                                            
 
 # Images:
 
