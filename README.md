@@ -72,6 +72,7 @@ RP2040 Microcontroller: 1
 
 | Qty | Component | Selected Part | Supplier | Link |
 |:---:|------------|---------------|----------|------|
+| 1 | LoRa Spring Antenna | BW915SNX17-5W2 (915MHz) | LCSC | [lcsc.com/product-detail/C496556.html](https://www.lcsc.com/product-detail/C496556.html) |
 | 1 | Antenna Pin | 2.54mm Vertical Pin Header | LCSC | [lcsc.com/product-detail/C2337.html](https://www.lcsc.com/product-detail/C2337.html) |
 | 11 | 100nF Capacitor | 100nF 16V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html) |
 | 1 | 470nF Capacitor | 470nF 10V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1527.html](https://www.lcsc.com/product-detail/C1527.html) |
