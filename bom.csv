@@ -11,7 +11,8 @@ Quantity,Part Name,Link
 1,Capacitor C18 (Placeholder 100nF 0402),https://www.lcsc.com/product-detail/C1525.html
 2,1uF 10V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1526.html
 2,15pF 50V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1550.html
-2,10uF 6.3V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1528.html
+2,12pF 50V 0402 Ceramic Capacitor,https://www.lcsc.com/products/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_312.html
+3,10uF 6.3V 0402 Ceramic Capacitor,https://www.lcsc.com/product-detail/C1528.html
 1,100 Ohm 0402 Ferrite Bead,https://www.lcsc.com/product-detail/C1015.html
 1,Johanson 0900FM15K0039 RF Balun,https://www.lcsc.com/product-detail/C186411.html
 1,USB Type-C 16-Pin Connector (GCT USB4105),https://www.lcsc.com/product-detail/C2765186.html
@@ -19,7 +20,7 @@ Quantity,Part Name,Link
 1,47nH 0402 SMD Inductor,https://www.lcsc.com/product-detail/C23987.html
 1,9.1nH 0402 SMD Inductor,https://www.lcsc.com/product-detail/C23988.html
 1,100 Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25076.html
-1,10k Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25744.html
+2,10k Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25744.html
 1,27.4 Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25082.html
 1,24.3 Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25081.html
 2,5.1k Ohm 1% 0402 Resistor,https://www.lcsc.com/product-detail/C25905.html

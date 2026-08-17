@@ -50,16 +50,16 @@ This board is a custom designed wireless communication module for long range app
 
 ## Components
 
-Total Physical Components: 51
-Capacitors: 25
-Resistors: 7
+Total Physical Components: 53
+Capacitors: 28
+Resistors: 8
 Inductors: 3
 Crystals/Oscillators: 2
 Push Buttons (Cherry MX): 2
+Antenna / Pin Headers: 2 (1 Spring Antenna + 1 Pin Header)
 Ferrite Beads: 1
 RF Baluns: 1
 USB-C Connectors: 1
-Antenna/Pin Headers: 1
 Voltage Regulators (AP2112K): 1
 RF Switches (PE4259): 1
 Flash Memory (W25Q16JV): 1
@@ -67,8 +67,7 @@ SX1262 LoRa IC: 1
 RP2040 Microcontroller: 1
 
 
-# Bill of Materials (BOM)
-
+## Component List
 
 | Qty | Component | Selected Part | Supplier | Link |
 |:---:|------------|---------------|----------|------|
@@ -84,7 +83,8 @@ RP2040 Microcontroller: 1
 | 1 | Capacitor (Placeholder) | 100nF 16V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html) |
 | 2 | 1uF Capacitor | 1uF 10V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1526.html](https://www.lcsc.com/product-detail/C1526.html) |
 | 2 | 15pF Capacitor | 15pF 50V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1550.html](https://www.lcsc.com/product-detail/C1550.html) |
-| 2 | 10uF Capacitor | 10uF 6.3V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1528.html](https://www.lcsc.com/product-detail/C1528.html) |
+| 2 | 12pF Capacitor | 12pF 50V 0402 Ceramic | LCSC | [lcsc.com/products/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_312.html](https://www.lcsc.com/products/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_312.html) |
+| 3 | 10uF Capacitor | 10uF 6.3V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1528.html](https://www.lcsc.com/product-detail/C1528.html) |
 | 1 | Ferrite Bead | 100 Ohm 0402 Ferrite Bead | LCSC | [lcsc.com/product-detail/C1015.html](https://www.lcsc.com/product-detail/C1015.html) |
 | 1 | RF Balun | Johanson 0900FM15K0039 | LCSC | [lcsc.com/product-detail/C186411.html](https://www.lcsc.com/product-detail/C186411.html) |
 | 1 | USB Type-C Connector | GCT USB4105 / 16-Pin Horizontal | LCSC | [lcsc.com/product-detail/C2765186.html](https://www.lcsc.com/product-detail/C2765186.html) |
@@ -92,7 +92,7 @@ RP2040 Microcontroller: 1
 | 1 | 47nH Inductor | 47nH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23987.html](https://www.lcsc.com/product-detail/C23987.html) |
 | 1 | 9.1nH Inductor | 9.1nH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23988.html](https://www.lcsc.com/product-detail/C23988.html) |
 | 1 | 100 Ohm Resistor | 100Ω 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25076.html](https://www.lcsc.com/product-detail/C25076.html) |
-| 1 | 10k Ohm Resistor | 10kΩ 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25744.html](https://www.lcsc.com/product-detail/C25744.html) |
+| 2 | 10k Ohm Resistor | 10kΩ 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25744.html](https://www.lcsc.com/product-detail/C25744.html) |
 | 1 | 27.4 Ohm Resistor | 27.4Ω 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25082.html](https://www.lcsc.com/product-detail/C25082.html) |
 | 1 | 24.4 Ohm Resistor | 24.3Ω 1% 0402 (Closest value) | LCSC | [lcsc.com/product-detail/C25081.html](https://www.lcsc.com/product-detail/C25081.html) |
 | 2 | 5.1k Ohm Resistor | 5.1kΩ 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25905.html](https://www.lcsc.com/product-detail/C25905.html) |
@@ -105,4 +105,3 @@ RP2040 Microcontroller: 1
 | 1 | SPI Flash Memory | W25Q16JVSSIQ (SOIC-8) | LCSC | [lcsc.com/product-detail/C82317.html](https://www.lcsc.com/product-detail/C82317.html) |
 | 1 | 32MHz Crystal | 32MHz 3225 4-pin SMD | LCSC | [lcsc.com/product-detail/C113671.html](https://www.lcsc.com/product-detail/C113671.html) |
 | 1 | 12MHz Crystal (for RP2040) | 12MHz 3225 4-pin SMD | LCSC | [lcsc.com/product-detail/C9002.html](https://www.lcsc.com/product-detail/C9002.html) |
-

@@ -1,0 +1,10 @@
+*.lck
+~*
+.history/
+
+*.bak
+*.tmp
+
+C:\Users\User\Desktop\kleplace.log
+*.log
+.DS_Store
