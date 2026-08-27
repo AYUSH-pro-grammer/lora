@@ -34,18 +34,19 @@ This board is a custom designed wireless communication module for long range app
 
 ## 3d
 
-![PCB 3D Front](image/pcb_3d_front.png)
-![PCB 3D Back](image/pcb_3d_back.png)
+<img width="2558" height="1444" alt="image" src="https://github.com/user-attachments/assets/48413be2-7ba4-4d27-aa45-bbc8ea6fde31" />
+<img width="2560" height="1452" alt="image" src="https://github.com/user-attachments/assets/2648cbf0-1e84-4368-b01e-aa70c5c45635" />
 
 
 ## Schematic
 
-![Schematic](image/schamtic.png)
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/089d174d-a229-4bd5-908f-b96109fd0b30" />
 
 
 ## PCB 
 
-![PCB Routing](image/pcb_routing.png)
+<img width="3024" height="1894" alt="image" src="https://github.com/user-attachments/assets/1c124df8-5d28-45ec-b538-64e6b734fc5b" />
+
 
 
 ## Components
