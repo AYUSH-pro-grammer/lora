@@ -34,14 +34,18 @@ This board is a custom designed wireless communication module for long range app
 
 ## 3d
 
+![PCB 3D Front](image/pcb_3d_front.png)
+![PCB 3D Back](image/pcb_3d_back.png)
 
 
 ## Schematic
 
+![Schematic](image/schamtic.png)
 
 
 ## PCB 
 
+![PCB Routing](image/pcb_routing.png)
 
 
 ## Components
