@@ -110,6 +110,3 @@ RP2040 Microcontroller: 1
 | 1 | SPI Flash Memory | W25Q16JVSSIQ (SOIC-8) | LCSC | [lcsc.com/product-detail/C82317.html](https://www.lcsc.com/product-detail/C82317.html) |
 | 1 | 32MHz Crystal | 32MHz 3225 4-pin SMD | LCSC | [lcsc.com/product-detail/C113671.html](https://www.lcsc.com/product-detail/C113671.html) |
 | 1 | 12MHz Crystal (for RP2040) | 12MHz 3225 4-pin SMD | LCSC | [lcsc.com/product-detail/C9002.html](https://www.lcsc.com/product-detail/C9002.html) |
-# lora
-# lora-board
-# lora-board
