@@ -86,16 +86,16 @@ RP2040 Microcontroller: 1
 | 1 | 39pF Capacitor | 39pF 50V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1553.html](https://www.lcsc.com/product-detail/C1553.html) |
 | 2 | 3.3pF Capacitor | 3.3pF 50V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1548.html](https://www.lcsc.com/product-detail/C1548.html) |
 | 1 | Capacitor (Placeholder) | 100nF 16V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html) |
-| 2 | 1uF Capacitor | 1uF 10V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1526.html](https://www.lcsc.com/product-detail/C1526.html) |
+| 2 | 1uF Capacitor | 1uF 10V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1526.html](lcsc.com/product-detail/C167339.html) |
 | 2 | 15pF Capacitor | 15pF 50V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1550.html](https://www.lcsc.com/product-detail/C1550.html) |
 | 2 | 12pF Capacitor | 12pF 50V 0402 Ceramic | LCSC | [lcsc.com/products/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_312.html](https://www.lcsc.com/products/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_312.html) |
 | 3 | 10uF Capacitor | 10uF 6.3V 0402 Ceramic | LCSC | [lcsc.com/product-detail/C1528.html](https://www.lcsc.com/product-detail/C1528.html) |
-| 1 | Ferrite Bead | 100 Ohm 0402 Ferrite Bead | LCSC | [lcsc.com/product-detail/C1015.html](https://www.lcsc.com/product-detail/C1015.html) |
-| 1 | RF Balun | Johanson 0900FM15K0039 | LCSC | [lcsc.com/product-detail/C186411.html](https://www.lcsc.com/product-detail/C186411.html) |
+| 1 | Ferrite Bead | 100 Ohm 0402 Ferrite Bead | LCSC | [lcsc.com/product-detail/C1015.html](lcsc.com/product-detail/C280601.html) |
+| 1 | RF Balun | Johanson 0900FM15K0039 | LCSC | [lcsc.com/product-detail/C186411.html](lcsc.com/product-detail/C1513363.html) |
 | 1 | USB Type-C Connector | GCT USB4105 / 16-Pin Horizontal | LCSC | [lcsc.com/product-detail/C2765186.html](https://www.lcsc.com/product-detail/C2765186.html) |
-| 1 | 15uH Inductor | 15uH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23985.html](https://www.lcsc.com/product-detail/C23985.html) |
-| 1 | 47nH Inductor | 47nH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23987.html](https://www.lcsc.com/product-detail/C23987.html) |
-| 1 | 9.1nH Inductor | 9.1nH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23988.html](https://www.lcsc.com/product-detail/C23988.html) |
+| 1 | 15uH Inductor | 15uH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23985.html](lcsc.com/product-detail/C329619.html) |
+| 1 | 47nH Inductor | 47nH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23987.html](https://www.lcsc.com/product-detail/C22334.html) |
+| 1 | 9.1nH Inductor | 9.1nH 0402 SMD Inductor | LCSC | [lcsc.com/product-detail/C23988.html](https://www.lcsc.com/product-detail/C7516935.html) |
 | 1 | 100 Ohm Resistor | 100Ω 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25076.html](https://www.lcsc.com/product-detail/C25076.html) |
 | 2 | 10k Ohm Resistor | 10kΩ 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25744.html](https://www.lcsc.com/product-detail/C25744.html) |
 | 1 | 27.4 Ohm Resistor | 27.4Ω 1% 0402 Resistor | LCSC | [lcsc.com/product-detail/C25082.html](https://www.lcsc.com/product-detail/C25082.html) |
