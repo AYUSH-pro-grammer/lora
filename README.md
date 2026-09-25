@@ -113,5 +113,8 @@ The following table lists all components required to build this LoRa board.
 | 1 | 32MHz Crystal | X322532MMB4SI | LCSC | [Link](https://www.lcsc.com/product-detail/C113671.html) | 5 | $0.108 | $0.54 |
 | 1 | 12MHz Crystal | X322512MSB4SI | LCSC | [Link](https://www.lcsc.com/product-detail/C9002.html) | 5 | $0.096 | $0.48 |
 | 2 | Tactile Switch | Cherry MX Clear (Pack of 10) | StacksKB | [Link](https://stackskb.com/store/cherry-mx-clear-switch-5-pin-pack-of-10/) | 10 | $0.480 | $4.80 |
-| **-** | **Total Procurement Cost (1st Batch Order)** | | | | | | **~$25.08** |
+
+| 1 | Oled Display | 0.96 Inch OLED Display Module | RoboCraze | [Link](https://robocraze.com/products/0-96in-oled-display-module-4pin) | 1 | $1.74 | $1.74 
+| **-** | **Total Procurement Cost (1st Batch Order)** | | | | | | **~$26.82** |
+
 
