@@ -3,6 +3,9 @@
 #include <Arduino.h>
 #include <SPI.h>
 #include <RadioLib.h>
+
+#include "Display.h"
+
 #define PIN_LORA_SCK    18
 #define PIN_LORA_MOSI   19
 #define PIN_LORA_MISO   20
@@ -24,18 +27,32 @@ SX1262 radio = new Module(PIN_LORA_NSS, PIN_LORA_DIO1, PIN_LORA_NRST, PIN_LORA_B
 uint32_t packetCounter = 0;
 
 void setup() {
+
   Serial.begin(115200);
-  while (!Serial && millis() < 3000); 
+
+  while (!Serial && millis() < 3000);
 
   Serial.println("\n==========================================");
-  Serial.println("   RP2040 + SX1262 lora settingup Test    ");
+  Serial.println("   RP2040 + SX1262 LoRa Setting Up Test   ");
   Serial.println("==========================================");
+
+
+  displayInit();
+
+  displayStatus("BOOTING...", "Please wait");
+
+
 
 
   SPI.setSCK(PIN_LORA_SCK);
   SPI.setTX(PIN_LORA_MOSI);
   SPI.setRX(PIN_LORA_MISO);
+
   SPI.begin();
+
+
+
+  displayStatus("LORA", "Initializing...");
 
   Serial.print("[SX1262] Initializing transceiver... ");
 
@@ -50,54 +67,135 @@ void setup() {
     RF_PREAMBLE_LEN
   );
 
+
   if (state == RADIOLIB_ERR_NONE) {
+
     Serial.println("SUCCESS!");
+
+    displayStatus("LORA READY", "Starting TX...");
+
+    delay(1000);
+
   } else {
+
     Serial.print("FAILED, error code: ");
     Serial.println(state);
-    Serial.println("Check SPI connections, 32MHz crystal, and 3.3V power rails.");
+
+    displayError(state);
+
+    Serial.println(
+      "Check SPI connections, 32MHz crystal, and 3.3V power rails."
+    );
+
     while (true) {
       delay(1000);
     }
   }
 
-
   if (radio.setDio2AsRfSwitch(true) != RADIOLIB_ERR_NONE) {
-    Serial.println("[SX1262] Warning: Failed to configure DIO2 as RF Switch control.");
+
+    Serial.println(
+      "[SX1262] Warning: Failed to configure DIO2 as RF Switch control."
+    );
+
+    displayStatus("WARNING", "RF switch error");
+
+    delay(1000);
+
   } else {
-    Serial.println("[SX1262] RF Switch (DIO2) control enabled.");
+
+    Serial.println(
+      "[SX1262] RF Switch (DIO2) control enabled."
+    );
   }
 
-  Serial.println("[SX1262] Setup complete. Starting TX loop...\n");
+
+  Serial.println(
+    "[SX1262] Setup complete. Starting TX loop...\n"
+  );
+
+  displayStatus("RUNNING", "LoRa TX ready");
+
+  delay(1000);
 }
 
+
+
+
 void loop() {
+
   char payload[32];
-  snprintf(payload, sizeof(payload), "PING #%lu", (unsigned long)packetCounter);
+
+  snprintf(
+    payload,
+    sizeof(payload),
+    "PING #%lu",
+    (unsigned long)packetCounter
+  );
+
+
+
+  displayTx(packetCounter);
+
 
   Serial.print("[SX1262] Transmitting packet: \"");
   Serial.print(payload);
   Serial.print("\"... ");
 
+
   unsigned long startTime = millis();
+
   int state = radio.transmit(payload);
+
   unsigned long duration = millis() - startTime;
 
+
+
   if (state == RADIOLIB_ERR_NONE) {
+
     Serial.print("SENT! (");
     Serial.print(duration);
     Serial.print(" ms) | Data Rate: ");
     Serial.print(radio.getDataRate());
     Serial.println(" bps");
+
+
+    displayTxSuccess(
+      packetCounter,
+      duration
+    );
+
+
   } else if (state == RADIOLIB_ERR_PACKET_TOO_LONG) {
+
     Serial.println("FAILED: Packet too long.");
+
+    displayStatus(
+      "TX FAILED",
+      "Packet too long"
+    );
+
+
   } else if (state == RADIOLIB_ERR_TX_TIMEOUT) {
+
     Serial.println("FAILED: Transmission timed out.");
+
+    displayStatus(
+      "TX FAILED",
+      "Timeout"
+    );
+
+
   } else {
+
     Serial.print("FAILED: Error code ");
     Serial.println(state);
+
+    displayError(state);
   }
 
+
   packetCounter++;
-  delay(3000); //  every 3 seconds
+
+  delay(3000);
 }
